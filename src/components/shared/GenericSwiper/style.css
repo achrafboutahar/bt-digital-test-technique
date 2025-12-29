@@ -1,0 +1,65 @@
+/* Generic Swiper Wrapper */
+.generic-swiper {
+  position: relative;
+  width: 100%;
+}
+
+/* Overflow container */
+.generic-swiper-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Slides container */
+.generic-swiper-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Individual slide */
+.generic-swiper-slide {
+  width: 100%;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+/* Dots container */
+.generic-swiper-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 8px 0;
+}
+
+/* Individual dot */
+.generic-swiper-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #D1D1D1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+/* Active dot */
+.generic-swiper-dot.active {
+  background-color: #0C7B91;
+  transform: scale(1.2);
+}
+
+/* Dot hover state */
+.generic-swiper-dot:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Dot focus state for accessibility */
+.generic-swiper-dot:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}

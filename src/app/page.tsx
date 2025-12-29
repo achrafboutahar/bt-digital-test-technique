@@ -23,7 +23,7 @@ const tabs = content.sections.tabs.items;
 
 export default function Page() {
   return (
-    <>
+    <main>
       <HeroSection />
       <TabsSection />
       <WeFixSection id={tabs.WEFIX.sectionId} />
@@ -38,6 +38,6 @@ export default function Page() {
       <ReminderSection />
       <HacksSection />
       <LegalNoticesSection />
-    </>
+    </main>
   );
 }

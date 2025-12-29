@@ -17,7 +17,7 @@ import content from "@/content/data.json";
 const backgroundColor: BackgroundProps["backgroundColor"] = "NEUTRAL_FADE";
 
 interface InsuranceProps {
-  id?: string;
+  id: string;
 }
 export function InsuranceSection({ id }: InsuranceProps) {
   return (

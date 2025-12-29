@@ -13,12 +13,9 @@ import content from "@/content/data.json";
 
 const backgroundColor: BackgroundProps["backgroundColor"] = "NEUTRAL_FADE";
 
-interface TogetherProps {
-  id?: string;
-}
-export function TogetherSection({ id }: TogetherProps) {
+export function TogetherSection() {
   return (
-    <SectionContainer id={id} backgroundColor={backgroundColor}>
+    <SectionContainer backgroundColor={backgroundColor}>
       <Columns multiline align="ALIGNED_CENTER" gap={GapSize.NINE}>
         <Column size={12}>
           <Title level={2} className="has-text-centered">

@@ -14,7 +14,7 @@ import {
 } from "@trilogy-ds/react";
 
 import styles from "./RepairService.module.css";
-import { SectionContainer } from "@/components/shared";
+import { GenericSwiper, SectionContainer } from "@/components/shared";
 import { RepairCard } from "./RepairCard";
 
 export interface SectionLogo {
@@ -97,8 +97,28 @@ export function RepairContainer({
                 </Title>
               )}
               <Columns align="ALIGNED_CENTER" className="has-text-centered">
+                {items && (
+                  <GenericSwiper
+                    items={items}
+                    renderItem={(item) => (
+                      <Column size={(columnSize as ColumnsSize) || 3}>
+                        <RepairCard
+                          iconName={item.iconName}
+                          title={item.title}
+                          text={item.text}
+                        />
+                      </Column>
+                    )}
+                    className="mobile-only"
+                    transitionDuration={300}
+                    swipeThreshold={50}
+                    showDots={true}
+                    slidePadding="0 16px"
+                  />
+                )}
                 {items?.map((item, i) => (
                   <Column
+                    className="desktop-only"
                     size={(columnSize as ColumnsSize) || 3}
                     key={`${item.title}-${i}`}
                   >

@@ -13,7 +13,7 @@ import content from "@/content/data.json";
 const backgroundColor: BackgroundProps["backgroundColor"] = "MAIN_FADE";
 
 interface PacksProps {
-  id?: string;
+  id: string;
 }
 
 export function PacksSection({ id }: PacksProps) {

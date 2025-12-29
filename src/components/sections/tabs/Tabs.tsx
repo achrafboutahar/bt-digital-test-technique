@@ -69,7 +69,7 @@ export function TabsSection() {
             <Tab
               key={`${tab.label}-${index}`}
               label={tab.label}
-              className="has-text-info"
+              className={`has-text-info ${styles.noBorder}`}
               onClick={() => handleTabClick(tab.sectionId!)}
               active={activeTab === tab.sectionId}
             />

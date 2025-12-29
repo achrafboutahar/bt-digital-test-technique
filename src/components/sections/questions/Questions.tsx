@@ -18,7 +18,7 @@ import content from "@/content/data.json";
 const backgroundColor: BackgroundProps["backgroundColor"] = "WHITE";
 
 interface QuestionsProps {
-  id?: string;
+  id: string;
 }
 
 export function QuestionsSection({ id }: QuestionsProps) {
