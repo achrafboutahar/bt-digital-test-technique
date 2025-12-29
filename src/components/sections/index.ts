@@ -1,0 +1,13 @@
+export { HeroSection } from "./hero";
+export { TabsSection } from "./tabs";
+export { WeFixSection } from "./wefix";
+export { RepairExpressSection, RepairEnvSection } from "./repair";
+export { AdvantagesSection } from "./advantages";
+export { PacksSection } from "./packs";
+export { SolutionSection } from "./solution";
+export { InsuranceSection } from "./insurance";
+export { TogetherSection } from "./together";
+export { QuestionsSection } from "./questions";
+export { ReminderSection } from "./reminder";
+export { HacksSection } from "./hacks";
+export { LegalNoticesSection } from "./legal-notices";

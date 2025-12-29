@@ -1,0 +1,26 @@
+.boxTitle {
+  left: 0;
+  right: 0;
+  top: -20px;
+  position: absolute;
+  background-color: #25465f;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.isFlatBox {
+  border: 2px solid #ddd;
+}
+
+.hasTextSuccess {
+  color: #5ec846 !important;
+}
+
+.hasBgButtonInfo {
+  background-color: #0c7b91 !important;
+}
+
+.hasBgButtonInfo:hover {
+  background-color: #0a6e81 !important;
+}

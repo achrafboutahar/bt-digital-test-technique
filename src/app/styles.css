@@ -1,0 +1,58 @@
+.bg-pink {
+  background-color: #ffc0cb !important;
+}
+
+.is-justify-content-start {
+  justify-content: start !important;
+}
+
+.is-justify-content-center {
+  justify-content: center !important;
+}
+
+.is-justify-content-end {
+  justify-content: end !important;
+}
+
+.has-background-gray-light {
+  background-color: #f4f4f4 !important;
+}
+
+.has-border-gray {
+  border: 1px solid #d1d1d1 !important;
+}
+
+.no-underline,
+.no-underline > * {
+  text-decoration: none !important;
+}
+
+.has-text-info,
+.has-text-info > * {
+  color: #0c7b91 !important;
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .desktop-only {
+    display: block;
+  }
+}
+
+.mobile-only {
+  display: block;
+}
+
+@media (min-width: 624px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+.bg-custom-card-gray:hover {
+  background-color: #e4eaed !important;
+  cursor: pointer;
+}

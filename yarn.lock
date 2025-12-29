@@ -291,9 +291,9 @@
     tslib "^2.4.0"
 
 "@trilogy-ds/assets@*":
-  version "0.0.4-beta-v4"
-  resolved "https://registry.yarnpkg.com/@trilogy-ds/assets/-/assets-0.0.4-beta-v4.tgz#45cafa51585ff804cfebe1830f92e0a2d0fbc397"
-  integrity sha512-Wz2oV4wTTocIFKVTWR4/ZR/Gn4MJi1lpNrNbFRm7xhEypihk6KGhkIN5E+KByQet8rpsO8YHXd3zef73gtmJaA==
+  version "4.13.0"
+  resolved "https://registry.yarnpkg.com/@trilogy-ds/assets/-/assets-4.13.0.tgz#363cb3a629d8b687ef64b9c3398991c8e182ab28"
+  integrity sha512-uVaAxYjCExXtCZIMd6xfbVPKmo1qLnCycYaXhZMJaeVbrKdw3W2VbIpUZAjbEsVn8qsoUz8xeKgUUupiUytiCg==
 
 "@trilogy-ds/react@^0.0.4-beta-v4":
   version "0.0.4-beta-v4"
@@ -314,9 +314,9 @@
     shortid "^2.2.16"
 
 "@trilogy-ds/styles@*":
-  version "0.0.4-beta-v4"
-  resolved "https://registry.yarnpkg.com/@trilogy-ds/styles/-/styles-0.0.4-beta-v4.tgz#7de54b7f184c700923ff3a304465a90379c4c9f1"
-  integrity sha512-Vz16HWdsBnRR1gUevbyWCSlpuUNbDfKaTimcIgnJ5WhjIkKIxrgaUQyXtK7/U14OxuGfz2aArtckWfPvdccbyg==
+  version "4.13.0"
+  resolved "https://registry.yarnpkg.com/@trilogy-ds/styles/-/styles-4.13.0.tgz#7704d34921a44678e77546d5b8bee90c89fd797e"
+  integrity sha512-6E6q2tYAKS3rcXpvimKf89ptJ2SaNJTZihC3OOEBvhDuYgk5xoQBhPNZr3ts/RCjyfkniAuiVGe4PipsVkSghA==
 
 "@types/fs-extra@^8.0.1":
   version "8.1.5"
