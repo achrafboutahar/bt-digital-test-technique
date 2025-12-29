@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react";
 import { Tabs, TabList, Tab, BackgroundProps } from "@trilogy-ds/react";
-import { SECTION_IDS } from "@/constants/sections";
 import { SectionContainer } from "@/components/shared";
 
+import content from "@/content/data.json";
 import styles from "./Tabs.module.css";
 
 interface TabConfig {
@@ -15,15 +15,30 @@ interface TabConfig {
 const backgroundColor: BackgroundProps["backgroundColor"] = "WHITE";
 
 const tabsConfig: TabConfig[] = [
-  { label: "WeFix", sectionId: SECTION_IDS.WEFIX },
   {
-    label: "Réparation express en boutique",
-    sectionId: SECTION_IDS.REPAIR_EXPRESS,
+    label: content.sections.tabs.items.WEFIX.label,
+    sectionId: content.sections.tabs.items.WEFIX.sectionId,
   },
-  { label: "Avantages client", sectionId: SECTION_IDS.ADVANTAGES },
-  { label: "Forfaits", sectionId: SECTION_IDS.PACKS },
-  { label: "L'assurance", sectionId: SECTION_IDS.INSURANCE },
-  { label: "Une question ?", sectionId: SECTION_IDS.QUESTIONS },
+  {
+    label: content.sections.tabs.items.REPAIR_EXPRESS.label,
+    sectionId: content.sections.tabs.items.REPAIR_EXPRESS.sectionId,
+  },
+  {
+    label: content.sections.tabs.items.ADVANTAGES.label,
+    sectionId: content.sections.tabs.items.ADVANTAGES.sectionId,
+  },
+  {
+    label: content.sections.tabs.items.PACKS.label,
+    sectionId: content.sections.tabs.items.PACKS.sectionId,
+  },
+  {
+    label: content.sections.tabs.items.INSURANCE.label,
+    sectionId: content.sections.tabs.items.INSURANCE.sectionId,
+  },
+  {
+    label: content.sections.tabs.items.QUESTIONS.label,
+    sectionId: content.sections.tabs.items.QUESTIONS.sectionId,
+  },
 ];
 
 export function TabsSection() {

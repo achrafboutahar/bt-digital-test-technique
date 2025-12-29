@@ -11,6 +11,7 @@ import {
   Title,
 } from "@trilogy-ds/react";
 import { SectionContainer } from "@/components/shared";
+import content from "@/content/data.json";
 
 interface WeFixSectionProps {
   id: string;
@@ -24,33 +25,33 @@ export function WeFixSection({ id }: WeFixSectionProps) {
       <Columns multiline align="ALIGNED_CENTER" gap={GapSize.TEN}>
         <Column size={12}>
           <Title level={2} className="has-text-centered">
-            Le choix d&apos;un partenaire expert pour votre téléphone
+            {content.sections.wefix.title}
           </Title>
         </Column>
         <Column size={12}>
           <Columns verticalAlign="ALIGNED_CENTER" gap={GapSize.TEN}>
             <Column size={6}>
-              <Image src="/assets/wefix.webp" alt="Hero image" width="100%" />
+              <Image
+                src={content.sections.wefix.image.src}
+                alt={content.sections.wefix.image.alt}
+                width="100%"
+              />
             </Column>
 
             <Column size={5}>
               <Rows>
                 <Row>
-                  <Title level={5}>
-                    WeFix, filiale de Fnac Darty, est le leader français de la
-                    réparation de smartphones
-                  </Title>
+                  <Title level={5}>{content.sections.wefix.subtitle}</Title>
                 </Row>
                 <Row>
-                  <Text>
-                    Quelle que soit la réparation, WeFix a la solution : écran,
-                    batterie, WiFi, haut-parleur, écouteurs, appareil photo,
-                    connecteur de charge, avec des pièces compatibles.
-                  </Text>
+                  <Text>{content.sections.wefix.description}</Text>
                 </Row>
                 <Row>
-                  <Link className="has-text-info" href="#">
-                    Visiter WeFix
+                  <Link
+                    className="has-text-info"
+                    href={content.sections.wefix.link.href}
+                  >
+                    {content.sections.wefix.link.label}
                   </Link>
                 </Row>
               </Rows>

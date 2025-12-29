@@ -8,6 +8,7 @@ import {
   Hero,
 } from "@trilogy-ds/react";
 import { RichText, SectionContainer } from "@/components/shared";
+import content from "@/content/data.json";
 
 const backgroundColor: BackgroundProps["backgroundColor"] = "MAIN";
 
@@ -18,22 +19,16 @@ export function HeroSection() {
         <Columns verticalAlign="ALIGNED_CENTER">
           <Column size={5} className="has-text-centered-mobile">
             <Title level={1} inverted>
-              Réparation de votre téléphone
+              {content.sections.hero.title}
             </Title>
-            <Text inverted>
-              Un smartphone cassé ou en panne, ça arrive à tout le monde.
-            </Text>
-            <RichText
-              inverted
-              text="Heureusement, que vous soyez sous garantie ou non, on a des
-                <b>solutions de réparation</b> pour vous !"
-            />
+            <Text inverted>{content.sections.hero.subtitle}</Text>
+            <RichText inverted text={content.sections.hero.description} />
           </Column>
           <Column size={1} />
           <Column size={6}>
             <Image
-              src="/assets/broken-phone.webp"
-              alt="Hero image"
+              src={content.sections.hero.image.src}
+              alt={content.sections.hero.image.alt}
               align="ALIGNED_END"
               width="100%"
             />

@@ -1,0 +1,301 @@
+{
+  "sections": {
+    "hero": {
+      "title": "Réparation de votre téléphone",
+      "subtitle": "Un smartphone cassé ou en panne, ça arrive à tout le monde.",
+      "description": "Heureusement, que vous soyez sous garantie ou non, on a des <b>solutions de réparation</b> pour vous !",
+      "image": {
+        "src": "/assets/broken-phone.webp",
+        "alt": "Hero image"
+      }
+    },
+    "tabs": {
+      "items": {
+        "WEFIX": {
+          "label": "WeFix",
+          "sectionId": "wefix"
+        },
+        "REPAIR_EXPRESS": {
+          "label": "Réparation express en boutique",
+          "sectionId": "repair-express"
+        },
+        "ADVANTAGES": {
+          "label": "Avantages client",
+          "sectionId": "advantages"
+        },
+        "PACKS": {
+          "label": "Forfaits",
+          "sectionId": "packs"
+        },
+        "INSURANCE": {
+          "label": "L'assurance",
+          "sectionId": "insurance"
+        },
+        "QUESTIONS": {
+          "label": "Une question ?",
+          "sectionId": "questions"
+        }
+      }
+    },
+    "wefix": {
+      "title": "Le choix d'un partenaire expert pour votre téléphone",
+      "subtitle": "WeFix, filiale de Fnac Darty, est le leader français de la réparation de smartphones",
+      "description": "Quelle que soit la réparation, WeFix a la solution : écran, batterie, WiFi, haut-parleur, écouteurs, appareil photo, connecteur de charge, avec des pièces compatibles.",
+      "link": {
+        "label": "Visiter WeFix",
+        "href": "#"
+      },
+      "image": {
+        "src": "/assets/wefix.webp",
+        "alt": "Hero image"
+      }
+    },
+    "repairExpress": {
+      "logo": {
+        "src": "/assets/repair-express.svg",
+        "alt": "Bénéficiez du service de réparation express en boutique*"
+      },
+      "title": "Bénéficiez du service de réparation express en boutique*",
+      "buttonLabel": "Trouver ma boutique",
+      "question": "Avec Bouygues Telecom, la réparation c'est...",
+      "smallText": "* Retrouvez les conditions et informations détaillées du service de réparation dans la FAQ accessible en bas de page. Kit-mains libre recommandé.",
+      "items": [
+        {
+          "iconName": "tri-users",
+          "title": "Ouvert à tous",
+          "text": "Que vous soyez client Bouygues Telecom ou non !"
+        },
+        {
+          "iconName": "tri-france",
+          "title": "Partout en France",
+          "text": "Le service est accessible dans toutes nos boutiques"
+        },
+        {
+          "iconName": "tri-calendar",
+          "title": "Express",
+          "text": "Entre 1 et 5 jours, et pour près d'un client sur 2, la réparation est réalisée en 24h !"
+        },
+        {
+          "iconName": "tri-mobile-tools",
+          "title": "Garantie de qualité",
+          "text": "Réparation réalisée par notre partenaire WiFix et garantie 1 an (i)"
+        }
+      ]
+    },
+    "advantages": {
+      "title": "Et encore plus d'avantages si vous êtes client Bouygues Telecom !",
+      "items": [
+        {
+          "iconName": "tri-sun-euro",
+          "title": "-30% de remise* valables sur toutes les réparations",
+          "description": "et -20% de remise sur les autres réparations effectuées lors de la même prise en charge",
+          "info": "*2 fois par an !"
+        },
+        {
+          "iconName": "tri-mobile",
+          "title": "On vous prête un smartphone",
+          "description": "le temps de la réparation (i)"
+        },
+        {
+          "iconName": "tri-users",
+          "title": "Faites profiter de la remise de 30% à un proche,",
+          "description": "que le téléphone ait été acheté chez Bouygues Telecom ou ailleurs !"
+        }
+      ]
+    },
+    "packs": {
+      "title": "Nos forfaits, pour vous",
+      "items": [
+        {
+          "iconName": "tri-phone-plus-sim-card",
+          "title": "Découvrir nos forfaits Bouygues Telecom",
+          "description": "Bénéficiez d'un réseau mobile de qualité, d'avantages et de services exclusifs et d'un nouveau smartphone.",
+          "hasButton": true
+        },
+        {
+          "iconName": "tri-sim-card",
+          "title": "Découvrir nos forfaits B&YOU sans engagement",
+          "description": "Profitez de la qualité de notre réseau avec nos forfaits B&YOU sans engagement.",
+          "hasButton": true
+        }
+      ]
+    },
+    "solution": {
+      "title": "Quel que soit le problème, nous avons la solution",
+      "cards": [
+        {
+          "iconName": "tri-mobile-broken",
+          "title": "Mon téléphone n'est plus sous garantie",
+          "description": "Si le téléphone que nous vous avons vendu n'est plus garanti et n'est pas assuré ou si vous n'avez pas acheté votre téléphone chez nous, vous pouvez bénéficier d'une <b>réparation en boutique</b>, et <b>à prix réduit</b> si vous détenez un forfait Bouygues Telecom.",
+          "link": {
+            "label": "Trouver ma boutique",
+            "href": "#"
+          }
+        },
+        {
+          "iconName": "tri-hand-mobile",
+          "title": "Mon téléphone est sous garantie",
+          "description": "Tous nos téléphones sont <b>garantis 2 ans</b>. Si vos téléphone tombe en panne pendant ce délais et qu'il s'agit d'un défaut couvert par les garanties légales (par exemple, un défaut de fabrication), <b>sa réparation est prise en charge gratuitement</b> par Bouygues Telecom."
+        }
+      ]
+    },
+    "insurance": {
+      "title": "L'assurance, la formule tout confort pour votre mobile",
+      "image": {
+        "src": "/assets/insurance.webp",
+        "alt": "Insurance image"
+      },
+      "items": [
+        {
+          "iconName": "tri-sun-euro",
+          "title": "Aucune dépense",
+          "description": "à débourser en cas d'incident"
+        },
+        {
+          "iconName": "tri-hand-mobile",
+          "title": "Téléphone assuré",
+          "description": "en cas de vol, dommages ou oxydation"
+        }
+      ]
+    },
+    "repairEnv": {
+      "logo": {
+        "src": "/assets/repair-env.svg",
+        "alt": "Réparer son téléphone, c'est aussi un geste pour l'environnement"
+      },
+      "title": "Réparer son téléphone, c'est aussi un geste pour l'environnement",
+      "subtitle": "Prolonger la durée de vie d'un an d'un téléphone permettrait de réduire son empreinte carbone de 30% environ*",
+      "question": "Comment ?",
+      "smallText": "*Source : Green Alliance",
+      "items": [
+        {
+          "iconName": "tri-mobile-up-down",
+          "title": "Environnement",
+          "text": "En évitant la production d'un nouveau mobile et ses conséquences sur l'environnement."
+        },
+        {
+          "iconName": "tri-recycle",
+          "title": "Recyclage",
+          "text": "En permettant le <u>recyclage</u> des pièces changées suite à la réparation de votre téléphone."
+        }
+      ]
+    },
+    "together": {
+      "title": "Ensemble, faisons durer nos smartphones plus longtemps",
+      "card": {
+        "image": {
+          "src": "/svg/solutions-smart-durable.svg",
+          "alt": "Solution Smart Durable"
+        },
+        "title": "Nos téléphones ont une place particulière dans notre quotidien, en nous accompagnant partout et tout le temps",
+        "description": "Alors pour s'en séparer le plus tard possible, on lance les <b>Solutions Smartphone Durable</b> : 4 façons de prolonger la vie de nos mobiles tout en faisant un geste pour la planète.",
+        "link": {
+          "label": "Découvrir nos solutions",
+          "href": "#"
+        }
+      }
+    },
+    "questions": {
+      "title": "Toutes vos questions sur la réparation de téléphone",
+      "items": [
+        {
+          "id": "ZERO",
+          "title": "Comment faire réparer son téléphone chez Bouygues Telecom ?",
+          "content": "Sollicitudin massa maecenas tellus orci sodales. Ac diam aliquam at vitae accumsan, vestibulum. Risus purus sit commodo, vel in non sed est felis. Sed amet, integer sodales et pulvinar massa. Sagittis posuere sit ultrices ac, viverra."
+        },
+        {
+          "id": "ONE",
+          "title": "Quels types de réparations propose le service ?",
+          "content": "Sollicitudin massa maecenas tellus orci sodales. Ac diam aliquam at vitae accumsan, vestibulum. Risus purus sit commodo, vel in non sed est felis. Sed amet, integer sodales et pulvinar massa. Sagittis posuere sit ultrices ac, viverra."
+        },
+        {
+          "id": "TWO",
+          "title": "Combien de temps prendra la réparation de mon téléphone ?",
+          "content": "Sollicitudin massa maecenas tellus orci sodales. Ac diam aliquam at vitae accumsan, vestibulum. Risus purus sit commodo, vel in non sed est felis. Sed amet, integer sodales et pulvinar massa. Sagittis posuere sit ultrices ac, viverra."
+        },
+        {
+          "id": "THREE",
+          "title": "La réparation est-elle garantie ?",
+          "content": "Sollicitudin massa maecenas tellus orci sodales. Ac diam aliquam at vitae accumsan, vestibulum. Risus purus sit commodo, vel in non sed est felis. Sed amet, integer sodales et pulvinar massa. Sagittis posuere sit ultrices ac, viverra."
+        },
+        {
+          "id": "FOUR",
+          "title": "Quels sont mes avantages si je fais réparer mon téléphone chez Bouygues Telecom ?",
+          "content": "Sollicitudin massa maecenas tellus orci sodales. Ac diam aliquam at vitae accumsan, vestibulum. Risus purus sit commodo, vel in non sed est felis. Sed amet, integer sodales et pulvinar massa. Sagittis posuere sit ultrices ac, viverra."
+        },
+        {
+          "id": "FIVE",
+          "title": "Quelles marques de téléphones sont réparables ?",
+          "content": "Sollicitudin massa maecenas tellus orci sodales. Ac diam aliquam at vitae accumsan, vestibulum. Risus purus sit commodo, vel in non sed est felis. Sed amet, integer sodales et pulvinar massa. Sagittis posuere sit ultrices ac, viverra."
+        },
+        {
+          "id": "SIX",
+          "title": "Comment faire réparer mon téléphone tout en préservant la garantie ?",
+          "content": "Sollicitudin massa maecenas tellus orci sodales. Ac diam aliquam at vitae accumsan, vestibulum. Risus purus sit commodo, vel in non sed est felis. Sed amet, integer sodales et pulvinar massa. Sagittis posuere sit ultrices ac, viverra."
+        }
+      ]
+    },
+    "reminder": {
+      "text": "À retenir"
+    },
+    "hacks": {
+      "title": "Nos astuces pour prendre soin de votre mobile",
+      "items": [
+        {
+          "imgSrc": "/assets/1.jpg",
+          "title": "Comment prolonger la vie de son smartphone ?",
+          "link": {
+            "label": "Lire l'article",
+            "href": "#"
+          }
+        },
+        {
+          "imgSrc": "/assets/2.jpg",
+          "title": "Comment protéger son smartphone de l'oxydation ?",
+          "link": {
+            "label": "Lire l'article",
+            "href": "#"
+          }
+        },
+        {
+          "imgSrc": "/assets/3.jpg",
+          "title": "Les conseils à suivre avant d'envoyer votre téléphone en réparation",
+          "link": {
+            "label": "Lire l'article",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    "legalNotices": {
+      "breadcrumb": {
+        "items": [
+          {
+            "id": "breadcrumbItem1",
+            "href": "https://www.bouyguestelecom.fr",
+            "label": "Acceuil",
+            "className": "no-underline has-text-info"
+          },
+          {
+            "id": "breadcrumbItem2",
+            "href": "#",
+            "label": "Choisir Bouygues Telecom",
+            "className": "no-underline has-text-info"
+          },
+          {
+            "id": "breadcrumbItem3",
+            "active": true,
+            "label": "Recyclage",
+            "className": "no-underline"
+          }
+        ]
+      },
+      "accordion": {
+        "id": "legalNotices",
+        "title": "Mentions légales",
+        "isJustifiedEnd": true,
+        "text": "Pass donnant accès à une recharge internet valable dans le pays sélectionné et dans les zones couvertes par les réseaux où Bouygues Telecom a signé un accord d'itinérance avec un opérateur étranger.\n\nL'activation de la recharge a lieu automatiquement dès le 1er Mo consommé dans le pays d'utilisation.\n\nLa recharge est à activer dans les 2 mois après achat et est valable 30 jours consécutifs après activation.\n\nUne fois le Pass expiré, les données consommées sont facturées en hors forfait au tarif en vigueur."
+      }
+    }
+  }
+}

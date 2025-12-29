@@ -16,22 +16,25 @@ import {
   HacksSection,
   LegalNoticesSection,
 } from "@/components/sections";
-import { SECTION_IDS } from "@/constants/sections";
+
+import content from "@/content/data.json";
+
+const tabs = content.sections.tabs.items;
 
 export default function Page() {
   return (
     <>
       <HeroSection />
       <TabsSection />
-      <WeFixSection id={SECTION_IDS.WEFIX} />
-      <RepairExpressSection id={SECTION_IDS.REPAIR_EXPRESS} />
-      <AdvantagesSection id={SECTION_IDS.ADVANTAGES} />
-      <PacksSection id={SECTION_IDS.PACKS} />
+      <WeFixSection id={tabs.WEFIX.sectionId} />
+      <RepairExpressSection id={tabs.REPAIR_EXPRESS.sectionId} />
+      <AdvantagesSection id={tabs.ADVANTAGES.sectionId} />
+      <PacksSection id={tabs.PACKS.sectionId} />
       <SolutionSection />
-      <InsuranceSection id={SECTION_IDS.INSURANCE} />
+      <InsuranceSection id={tabs.INSURANCE.sectionId} />
       <RepairEnvSection />
       <TogetherSection />
-      <QuestionsSection id={SECTION_IDS.QUESTIONS} />
+      <QuestionsSection id={tabs.QUESTIONS.sectionId} />
       <ReminderSection />
       <HacksSection />
       <LegalNoticesSection />

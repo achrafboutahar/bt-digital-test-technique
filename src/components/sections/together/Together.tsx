@@ -9,6 +9,7 @@ import {
   Title,
 } from "@trilogy-ds/react";
 import { CustomCard, RichText, SectionContainer } from "@/components/shared";
+import content from "@/content/data.json";
 
 const backgroundColor: BackgroundProps["backgroundColor"] = "NEUTRAL_FADE";
 
@@ -21,7 +22,7 @@ export function TogetherSection({ id }: TogetherProps) {
       <Columns multiline align="ALIGNED_CENTER" gap={GapSize.NINE}>
         <Column size={12}>
           <Title level={2} className="has-text-centered">
-            Ensemble, faisons durer nos smartphones plus longtemps
+            {content.sections.together.title}
           </Title>
         </Column>
         <Column size={12}>
@@ -29,26 +30,25 @@ export function TogetherSection({ id }: TogetherProps) {
             <Columns verticalAlign="ALIGNED_CENTER">
               <Column size={5}>
                 <Image
-                  src="/svg/solutions-smart-durable.svg"
-                  alt="Solution Smart Durable"
+                  src={content.sections.together.card.image.src}
+                  alt={content.sections.together.card.image.alt}
                   align="ALIGNED_CENTER"
                   width="263px"
                 />
               </Column>
               <Column size={6}>
-                <Title level={4}>
-                  {
-                    "Nos téléphones ont une place particulière dans notre quotidien, en nous accompagnant partout et tout le temps"
-                  }
-                </Title>
+                <Title level={4}>{content.sections.together.card.title}</Title>
                 <RichText
                   level={1}
-                  text="Alors pour s'en séparer le plus tard possible, on lance les <b>Solutions Smartphone Durable</b> : 4 façons de prolonger la vie de nos mobiles tout en faisant un geste pour la planète."
+                  text={content.sections.together.card.description}
                 />
 
-                <Link className="has-text-info" href="#">
+                <Link
+                  className="has-text-info"
+                  href={content.sections.together.card.link.href}
+                >
                   <Text level={2} markup="span">
-                    Découvrir nos solutions
+                    {content.sections.together.card.link.label}
                   </Text>
                 </Link>
               </Column>
