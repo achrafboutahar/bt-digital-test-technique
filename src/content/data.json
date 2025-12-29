@@ -5,7 +5,7 @@
       "subtitle": "Un smartphone cassé ou en panne, ça arrive à tout le monde.",
       "description": "Heureusement, que vous soyez sous garantie ou non, on a des <b>solutions de réparation</b> pour vous !",
       "image": {
-        "src": "/assets/broken-phone.webp",
+        "src": "/images/broken-phone.webp",
         "alt": "Hero image"
       }
     },
@@ -46,13 +46,13 @@
         "href": "#"
       },
       "image": {
-        "src": "/assets/wefix.webp",
+        "src": "/images/wefix.webp",
         "alt": "Hero image"
       }
     },
     "repairExpress": {
       "logo": {
-        "src": "/assets/repair-express.svg",
+        "src": "/images/repair-express.svg",
         "alt": "Bénéficiez du service de réparation express en boutique*"
       },
       "title": "Bénéficiez du service de réparation express en boutique*",
@@ -142,7 +142,7 @@
     "insurance": {
       "title": "L'assurance, la formule tout confort pour votre mobile",
       "image": {
-        "src": "/assets/insurance.webp",
+        "src": "/images/insurance.webp",
         "alt": "Insurance image"
       },
       "items": [
@@ -160,7 +160,7 @@
     },
     "repairEnv": {
       "logo": {
-        "src": "/assets/repair-env.svg",
+        "src": "/images/repair-env.svg",
         "alt": "Réparer son téléphone, c'est aussi un geste pour l'environnement"
       },
       "title": "Réparer son téléphone, c'est aussi un geste pour l'environnement",
@@ -242,7 +242,7 @@
       "title": "Nos astuces pour prendre soin de votre mobile",
       "items": [
         {
-          "imgSrc": "/assets/1.jpg",
+          "imgSrc": "/images/hack1.webp",
           "title": "Comment prolonger la vie de son smartphone ?",
           "link": {
             "label": "Lire l'article",
@@ -250,7 +250,7 @@
           }
         },
         {
-          "imgSrc": "/assets/2.jpg",
+          "imgSrc": "/images/hack2.webp",
           "title": "Comment protéger son smartphone de l'oxydation ?",
           "link": {
             "label": "Lire l'article",
@@ -258,7 +258,7 @@
           }
         },
         {
-          "imgSrc": "/assets/3.jpg",
+          "imgSrc": "/images/hack3.webp",
           "title": "Les conseils à suivre avant d'envoyer votre téléphone en réparation",
           "link": {
             "label": "Lire l'article",
