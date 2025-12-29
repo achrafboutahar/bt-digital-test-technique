@@ -52,7 +52,7 @@
     },
     "repairExpress": {
       "logo": {
-        "src": "/images/repair-express.svg",
+        "src": "/svg/repair-express.svg",
         "alt": "Bénéficiez du service de réparation express en boutique*"
       },
       "title": "Bénéficiez du service de réparation express en boutique*",
@@ -160,7 +160,7 @@
     },
     "repairEnv": {
       "logo": {
-        "src": "/images/repair-env.svg",
+        "src": "/svg/repair-env.svg",
         "alt": "Réparer son téléphone, c'est aussi un geste pour l'environnement"
       },
       "title": "Réparer son téléphone, c'est aussi un geste pour l'environnement",
