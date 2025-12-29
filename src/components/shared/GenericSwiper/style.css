@@ -8,6 +8,7 @@
 .generic-swiper-wrapper {
   overflow: hidden;
   width: 100%;
+  padding-bottom: 10px;
 }
 
 /* Slides container */

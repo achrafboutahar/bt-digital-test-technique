@@ -5,7 +5,7 @@ import {
   GapSize,
   Title,
 } from "@trilogy-ds/react";
-import { SectionContainer } from "@/components/shared";
+import { GenericSwiper, SectionContainer } from "@/components/shared";
 import { HackCard, HackCardProps } from "./components/HackCard";
 
 import content from "@/content/data.json";
@@ -31,11 +31,10 @@ export function HacksSection() {
         </Column>
         <Column size={12}>
           <Columns verticalAlign="ALIGNED_CENTER">
-            {cardsConfig.map((cardItem) => (
-              <Column key={cardItem.imgSrc} desktopSize={4}>
-                <HackCard {...cardItem} />
-              </Column>
-            ))}
+            <GenericSwiper
+              items={cardsConfig}
+              renderItem={(cardItem) => <HackCard {...cardItem} />}
+            />
           </Columns>
         </Column>
       </Columns>
