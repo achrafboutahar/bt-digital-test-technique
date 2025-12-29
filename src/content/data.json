@@ -156,7 +156,8 @@
           "title": "Téléphone assuré",
           "description": "en cas de vol, dommages ou oxydation"
         }
-      ]
+      ],
+      "buttonLabel": "L'assurance en détail"
     },
     "repairEnv": {
       "logo": {

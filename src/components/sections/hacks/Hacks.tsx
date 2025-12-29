@@ -32,9 +32,19 @@ export function HacksSection() {
         <Column size={12}>
           <Columns verticalAlign="ALIGNED_CENTER">
             <GenericSwiper
+              className="mobile-only"
               items={cardsConfig}
               renderItem={(cardItem) => <HackCard {...cardItem} />}
             />
+            {cardsConfig.map((cardItem) => (
+              <Column
+                key={cardItem.imgSrc}
+                desktopSize={4}
+                className="desktop-only"
+              >
+                <HackCard {...cardItem} />
+              </Column>
+            ))}
           </Columns>
         </Column>
       </Columns>

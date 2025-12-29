@@ -1,5 +1,6 @@
 import {
   BackgroundProps,
+  Button,
   Column,
   Columns,
   GapSize,
@@ -57,6 +58,11 @@ export function InsuranceSection({ id }: InsuranceProps) {
               </Rows>
             </Column>
           </Columns>
+        </Column>
+        <Column size={12} className="has-text-centered">
+          <Button className="has-bg-button-info">
+            {content.sections.insurance.buttonLabel}
+          </Button>
         </Column>
       </Columns>
     </SectionContainer>

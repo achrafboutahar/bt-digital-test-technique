@@ -32,7 +32,7 @@
   display: none !important;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .desktop-only {
     display: block !important;
   }
@@ -42,7 +42,7 @@
   display: block !important;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .mobile-only {
     display: none !important;
   }
@@ -51,4 +51,12 @@
 .bg-custom-card-gray:hover {
   background-color: #e4eaed !important;
   cursor: pointer;
+}
+
+.has-bg-button-info {
+  background-color: #0c7b91 !important;
+}
+
+.has-bg-button-info:hover {
+  background-color: #0a6e81 !important;
 }

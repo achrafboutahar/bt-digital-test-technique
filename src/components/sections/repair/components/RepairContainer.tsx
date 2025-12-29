@@ -81,7 +81,7 @@ export function RepairContainer({
         )}
         {buttonLabel && (
           <Column size={12} className="has-text-centered">
-            <Button className={styles.hasBgButtonInfo}>{buttonLabel}</Button>
+            <Button className="has-bg-button-info">{buttonLabel}</Button>
           </Column>
         )}
         <Column size={12}>
