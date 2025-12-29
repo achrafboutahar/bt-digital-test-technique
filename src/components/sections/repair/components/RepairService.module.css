@@ -29,3 +29,13 @@
 .hasBgButtonInfo:hover {
   background-color: #0a6e81 !important;
 }
+
+.hasMobileTopPadding {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .hasMobileTopPadding {
+    padding-top: 15px !important;
+  }
+}

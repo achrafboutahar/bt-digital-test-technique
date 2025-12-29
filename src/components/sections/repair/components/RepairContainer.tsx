@@ -85,7 +85,7 @@ export function RepairContainer({
           </Column>
         )}
         <Column size={12}>
-          <Box className={styles.isFlatBox}>
+          <Box className={`${styles.isFlatBox}`}>
             <BoxContent backgroundColor="MAIN">
               {question && (
                 <Title
@@ -96,7 +96,10 @@ export function RepairContainer({
                   {question}
                 </Title>
               )}
-              <Columns align="ALIGNED_CENTER" className="has-text-centered">
+              <Columns
+                align="ALIGNED_CENTER"
+                className={`has-text-centered ${styles.hasMobileTopPadding}`}
+              >
                 {items && (
                   <GenericSwiper
                     items={items}
